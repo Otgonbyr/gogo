@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+li{
+    list-style: none;
+}
+.grey{
+    font-size: 13px;
+    color: grey;
+}
+/*------------------------------NAV------------------------------*/
+header{
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    display: flex;
+    gap: 150px;
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+.red-dot{
+    list-style-type: circle;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-right p{
+    margin: 0;
+    font-size: 12px;
+}
+.nav-right div{
+    width: 110px;
+}
+.sun{
+    display: flex;
+    gap: 10px;
+    margin: 0;
+}
+.dollar{
+    color: #2adb00;
+    font-size: 20px;
+}
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+/*------------------------------MAIN------------------------------*/
+/*-------------TOP-SECTION---------------*/
+.top-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(180deg,#fff,#f7f7f7);
+}
+.top-img{
+    display: flex;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.top-img img{
+    width: 550px;
+    height: 385px;
+}
+.top-btn{
+    width: 190px;
+    height: 35px;
+    background: linear-gradient(129deg,#c40097,#d6710b);
+    border-radius: 20px;
+    color: white;
+    border: solid;
+}
+.top-header-text{
+    font-size: 26px;
+}
+.top-btm-btn{
+    width: 65px;
+    height: 35px;
+    border-radius:100px;
+    border: solid;
+}
